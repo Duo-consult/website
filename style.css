@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   width: 90%;
   margin: auto;
@@ -35,6 +41,7 @@ form.example button {
   border: 1px solid grey;
   border-left: none; /* Prevent double borders */
   cursor: pointer;
+  border-radius: 10px;
 }
 
 form.example button:hover {
@@ -53,6 +60,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #e9e9e9;
+  border-radius: 10px;
 }
 
 li {
@@ -76,10 +84,13 @@ li a {
 li a:hover:not(.active) {
   background-color: #bbac31;
 }
-
+img {
+  border-radius: 15px;
+}
 .active {
   background-color: #bbac31;
 }
+
 .boxes {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -93,7 +104,7 @@ li a:hover:not(.active) {
   display: grid;
   justify-content: center;
   font-size: 30px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .boxes-1 {
   display: grid;
@@ -108,11 +119,17 @@ li a:hover:not(.active) {
   display: grid;
   justify-content: center;
   background-color: #bbac31;
-  font-size: 30px;
-  margin-top: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 #Copyright {
   font-size: 20px;
   background-color: #bbac31;
+  text-align: center;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 20px;
   text-align: center;
 }

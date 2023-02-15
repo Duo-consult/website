@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   width: 90%;
   margin: auto;
@@ -28,6 +33,7 @@ form.example button {
   border: 1px solid grey;
   border-left: none; /* Prevent double borders */
   cursor: pointer;
+  border-radius: 10px;
 }
 
 form.example button:hover {
@@ -46,6 +52,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #e9e9e9;
+  border-radius: 10px;
 }
 
 li {
@@ -232,4 +239,5 @@ b .clearfix::after {
   background-color: #e9e9e9;
   font-size: 30px;
   margin-top: 20px;
+  border-radius: 10px;
 }
